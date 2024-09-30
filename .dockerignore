@@ -1,0 +1,57 @@
+# Logs and runtime data
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage and build output
+coverage
+.nyc_output
+.next
+out
+.nuxt
+dist
+.cache/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.grunt
+lib-cov
+
+# Node.js dependencies and package management
+node_modules
+jspm_packages
+typings
+.npm
+.yarn-integrity
+*.tgz
+
+# Lint and test tools
+.eslintcache
+.nyc_output
+
+# dotenv environment variable files and secret keys
+.env
+.env.*
+*.key
+*.key.pub
+
+# IDE and editor config
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary folders
+tmp
+temp
